@@ -1,0 +1,17 @@
+.container{
+    padding-top:14%;
+    text-align: center;
+    border-radius:10px;
+
+    width: 500px;
+    height: 200px;
+}
+.padre{
+    border-radius:10px;
+  width:400px;
+  padding:1%;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
