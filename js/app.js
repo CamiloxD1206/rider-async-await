@@ -21,7 +21,7 @@
 //         resuelve1={}
 //         for (let index = 0; index < arrayNotas.length; index++) {
 //             resuelve1[index]=arrayNotas[index]
-            
+
 //         }
 
 //         setTimeout(() => {
@@ -54,5 +54,5 @@
 //         }}).then(tal=>{
 //             setText(tal)
 //         })
-    
+
 // }

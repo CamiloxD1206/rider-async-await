@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<div class="padre">
-<div class="container">
-<label for="nota1">primeraNota</label>
-<input type="number" id="nota1"><br><br>
-<label for="nota1">segundaNota</label>
-<input type="number" id="nota2"><br><br>
-<label for="nota1">terceraNota</label>
-<input type="number" id="nota3"><br><br>
+    <div class="padre">
+        <div class="container">
+            <label for="nota1">primeraNota</label>
+            <input type="number" id="nota1" value=""><br><br>
+            <label for="nota1">segundaNota</label>
+            <input type="number" id="nota2" value=""><br><br>
+            <label for="nota1">terceraNota</label>
+            <input type="number" id="nota3" value=""><br><br>
 
-<!-- <button id="boton" onclick="document.getElementById(miNota(nota1.value,nota2.value,nota3.value))">Calcular</button> -->
-<button id="boton">Calcular</button>
-<p id="resultado"></p>
+            <!-- <button id="boton" onclick="document.getElementById(miNota(nota1.value,nota2.value,nota3.value))">Calcular</button>-->
 
-</div>
-</div>
+            <button id="boton">Boton</button>
+            <button id="limpiar">Limpiar</button>
+            <p id="resultado"></p>
+
+        </div>
+
+    </div>
+    <h1>Tabla de Notas</h1>
+    <table border="1" id="tablaNotas">
+        <thead>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>resultado</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí puedes agregar filas con datos de notas y botones de editar y eliminar -->
+            <tr>
+            </tr>
+            <!-- Puedes agregar más filas aquí -->
+        </tbody>
+    </table>
 
     <!-- <script src="/js/app.js"></script> -->
     <script src="/js/async.js"></script>
+
 </html>
